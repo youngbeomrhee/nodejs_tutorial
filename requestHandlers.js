@@ -7,7 +7,5 @@ function upload() {
 }
 
 
-exports = {
-    start: start,
-    upload: upload
-};
+exports.start = start;
+exports.upload = upload;
